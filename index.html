@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Metalúrgica Gaspar | Usinagem e Ferramentaria</title>
+    <meta property="og:title" content="Metalúrgica Gaspar">
+    <meta property="og:description"
+        content="Precisão e confiança em usinagem e ferramentaria desde 1986. Soluções industriais sob medida.">
+    <meta property="og:type" content="website">
+    <meta name="description" content="Precisão e confiança em usinagem e ferramentaria desde 1986. Soluções industriais sob medida com excelência técnica.">
+    <link rel="stylesheet" href="/assets/css/tailwind.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-bgBase text-blackTech">
+    <header class="fixed top-0 left-0 w-full bg-white z-50 shadow-sm gap-6">
+        <div class="container mx-auto px-6 h-[72px] flex items-center justify-between">
+            <img src="/assets/images/logo-metalurgica-gaspar.png" alt="Logo da Metalúrgica Gaspar"
+                class="h-10 w-auto object-contain">
+
+            <button type="button" id="menu-toggle" class="md:hidden" aria-label="Abrir menu" aria-expanded="false"
+                aria-controls="menu-mobile">
+                <img src="/assets/images/menu.png" alt="" aria-hidden="true" class="w-6">
+            </button>
+
+            <nav id="main-menu" class="hidden md:flex gap-6 text-sm justify-end">
+                <a href="#home" class="hover:text-primary">Home</a>
+                <a href="#sobre" class="hover:text-primary">Sobre</a>
+                <a href="#servicos" class="hover:text-primary">Serviços</a>
+                <a href="#projetos" class="hover:text-primary">Projetos</a>
+                <a href="#contato" class="hover:text-primary" rel="nofollow">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <div id="menu-mobile" class="hidden fixed top-[70px] left-0 w-full bg-white shadow-md md:hidden">
+        <nav class="flex flex-col items-center gap-4 py-6 text-sm">
+            <a href="#home" class="hover:text-primary">Home</a>
+            <a href="#sobre" class="hover:text-primary">Sobre</a>
+            <a href="#servicos" class="hover:text-primary">Serviços</a>
+            <a href="#projetos" class="hover:text-primary">Projetos</a>
+            <a href="#contato" class="hover:text-primary" rel="nofollow">Contato</a>
+        </nav>
+    </div>
+
+    <div class="h-[88px]"></div>
+
+    <section class="min-h-[80vh] flex items-center" aria-labelledby="hero-title">
+        <div class="container mx-auto px-4 sm:px-6 grid gap-12 md:grid-cols-2 items-center text-center md:text-left">
+            <div>
+                <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6 max-w-none md:max-w-xl" id="hero-title">
+                    Precisão e confiança em usinagem e ferramentaria desde 1986
+                </h1>
+
+                <p class="text-grayMedium text-lg mb-8 max-w-xl mx-auto md:mx-0">
+                    Soluções industriais sob medida, com excelência técnica e compromisso com resultados.
+                </p>
+
+                <div class="flex flex-wrap gap-4 justify-center md:justify-start">
+                    <a href="#"
+                        class="bg-primary text-white px-7 py-3 rounded-md font-semibold hover:bg-[#1b7d45] transition shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-primary">
+                        Solicitar Orçamento
+                    </a>
+
+                    <a href="#"
+                        class="border border-blackTech px-7 py-3 rounded-md font-semibold hover:border-primary hover:text-primary transition shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-primary">
+                        Fale Conosco
+                    </a>
+                </div>
+            </div>
+
+            <div
+                class="w-full aspect-[4/3] sm:aspect-[16/9] md:aspect-[5/4] md:h-[420px] bg-gray-200 flex items-center justify-center">
+                <img src="/assets/images/design-maquinario-industrial.png"
+                    alt="Design de maquinário industrial utilizado na produção" loading="lazy" decoding="async"
+                    class="w-full h-full object-contain">
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24" aria-labelledby="services-title">
+        <div class="container mx-auto px-4 sm:px-6">
+            <h2 class="text-3xl font-semibold text-center mb-12" id="services-title">
+                O que fazemos
+            </h2>
+
+            <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                <div class="border border-gray-200 p-8 hover:shadow-sm transition cursor-default" role="article">
+                    <h3 class="font-semibold text-lg mb-3">
+                        Usinagem de Precisão
+                    </h3>
+                    <p class="text-grayMedium text-sm">
+                        Produção de peças conforme especificações técnicas rigorosas.
+                    </p>
+                </div>
+
+                <div class="border border-gray-200 p-8 hover:shadow-sm transition cursor-default" role="article">
+                    <h3 class="font-semibold text-lg mb-3">
+                        Ferramentaria Industrial
+                    </h3>
+                    <p class="text-grayMedium text-sm">
+                        Desenvolvimento e manutenção de ferramentas industriais.
+                    </p>
+                </div>
+
+                <div class="border border-gray-200 p-8 hover:shadow-sm transition cursor-default" role="article">
+                    <h3 class="font-semibold text-lg mb-3">
+                        Ferramentas Especiais
+                    </h3>
+                    <p class="text-grayMedium text-sm">
+                        Soluções personalizadas para demandas específicas.
+                    </p>
+                </div>
+
+                <div class="border border-gray-200 p-8 hover:shadow-sm transition cursor-default" role="article">
+                    <h3 class="font-semibold text-lg mb-3">
+                        Projetos Sob Medida
+                    </h3>
+                    <p class="text-grayMedium text-sm">
+                        Análise técnica e desenvolvimento conforme necessidade do cliente.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-white" aria-labelledby="why-title">
+        <div class="container mx-auto px-4 sm:px-6 grid gap-12 md:grid-cols-2 items-center">
+            <div class="flex flex-col items-center md:items-start md:pl-6">
+                <h2 class="text-3xl font-semibold mb-8 max-w-md sm:max-w-lg sm:max-w-lg text-center md:text-left"
+                    id="why-title">
+                    Por que escolher a Metalúrgica&nbsp;Gaspar
+                </h2>
+                <div class="mx-auto md:mx-0">
+                    <ul class="space-y-5 text-grayMedium max-w-md w-full leading-relaxed px-2 sm:px-0">
+                        <li class="flex gap-x-3 items-start">
+                            <span class="text-primary leading-none" aria-hidden="true">✔</span>
+                            <span class="block">Mais de 30 anos de experiência</span>
+                        </li>
+                        <li class="flex gap-x-3 items-start">
+                            <span class="text-primary leading-none" aria-hidden="true">✔</span>
+                            <span class="block">Precisão técnica e confiabilidade</span>
+                        </li>
+                        <li class="flex gap-x-3 items-start">
+                            <span class="text-primary leading-none" aria-hidden="true">✔</span>
+                            <span class="block">Atendimento personalizado</span>
+                        </li>
+                        <li class="flex gap-x-3 items-start">
+                            <span class="text-primary leading-none" aria-hidden="true">✔</span>
+                            <span class="block">Retomada das operações com
+                                <span class="block">
+                                    estrutura atualizada em 2026
+                                </span>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="flex justify-center items-center">
+                <span class="text-[96px] sm:text-[120px] font-bold text-grayLight leading-tight">
+                    1986
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-white border-t border-gray-200" aria-labelledby="contact-title">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+            <h2 class="text-3xl font-semibold mb-8" id="contact-title">
+                Entre em contato e leve precisão para o seu projeto.
+            </h2>
+
+            <a href="#"
+                class="inline-block bg-primary text-white px-10 py-4 rounded-md font-semibold hover:bg-[#1b7d45] focus-visible:outline focus-visible:outline-2 focus-visible:outline-primary"
+                aria-label="Solicitar orçamento para projeto industrial">
+                Solicitar Orçamento
+            </a>
+
+            <p class="text-sm text-grayMedium mt-4">
+                Atendimento direto • Sem intermediários • Resposta rápida
+            </p>
+        </div>
+    </section>
+
+    <footer class="bg-grayLight py-12" aria-label="Rodapé institucional">
+        <div class="container mx-auto px-4 sm:px-6 grid gap-10 md:grid-cols-3 md:text-left">
+            <div class="flex flex-col items-center gap-2">
+                <img src="/assets/images/logo-metalurgica-gaspar.png" alt="Logo da Metalúrgica Gaspar"
+                    class="h-10 w-auto object-contain">
+                <p>Usinagem e Ferramentaria</p>
+            </div>
+
+            <div class="flex flex-col items-center text-center font-mono">
+                <a href="tel:+5511930974942">(11) 93097-4942</a>
+                <a href="tel:+5511987470712">(11) 98747-0712</a>
+                <a href="mailto:raimundogasparfilho@gmail.com" class="font-sans">raimundogasparfilho@gmail.com</a>
+            </div>
+
+            <div class="flex flex-col items-center text-center leading-relaxed">
+                <address class="not-italic">
+                    <span class="block">Paulicéia</span>
+                    <span class="block">São Bernardo do Campo</span>
+                    <span>CEP 09690-030</span>
+                </address>
+
+            </div>
+        </div>
+
+        <div class="text-center text-xs text-grayMedium mt-10">
+            © 2026 Metalúrgica Gaspar. Todos os direitos reservados.
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
