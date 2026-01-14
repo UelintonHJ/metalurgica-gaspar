@@ -21,34 +21,34 @@
 </head>
 
 <body class="bg-bgBase text-blackTech">
-    <header class="fixed top-0 left-0 w-full bg-white z-50 shadow-sm gap-6">
+    <header class="fixed top-0 left-0 w-full bg-blackTech z-50 shadow-sm gap-6">
         <div class="container mx-auto px-6 h-[88px] flex items-center justify-between">
-            <div class="flex items-center h-full overflow-hidden">
+            <div class="flex items-center h-full overflow-hidden bg-white p-2 md:p-3 rounded-md shadow-sm">
                 <img src="/images/logo-metalurgica-gaspar.png" alt="Logo da Metalúrgica Gaspar"
-                    class="h-[72px] w-auto object-contain">
+                    class="h-[56px] md:h-[72px] w-auto object-contain">
             </div>
             <button type="button" id="menu-toggle" class="md:hidden" aria-label="Abrir menu" aria-expanded="false"
                 aria-controls="menu-mobile">
-                <img src="/images/menu.png" alt="" aria-hidden="true" class="w-6">
+                <img src="/images/menu-toggle-white.png" alt="" aria-hidden="true" class="w-7">
             </button>
 
             <nav id="main-menu" class="hidden md:flex gap-6 text-sm justify-end">
-                <a href="#home" class="hover:text-primary">Home</a>
-                <a href="#sobre" class="hover:text-primary">Sobre</a>
-                <a href="#servicos" class="hover:text-primary">Serviços</a>
-                <a href="#projetos" class="hover:text-primary">Projetos</a>
-                <a href="#contato" class="hover:text-primary" rel="nofollow">Contato</a>
+                <a href="#home" class="text-white hover:text-primary font-medium transition">Home</a>
+                <a href="#sobre" class="text-white hover:text-primary font-medium transition">Sobre</a>
+                <a href="#servicos" class="text-white hover:text-primary font-medium transition">Serviços</a>
+                <a href="#projetos" class="text-white hover:text-primary font-medium transition">Projetos</a>
+                <a href="#contato" class="text-white hover:text-primary font-medium transition" rel="nofollow">Contato</a>
             </nav>
         </div>
     </header>
 
-    <div id="menu-mobile" class="hidden fixed top-[70px] left-0 w-full bg-white shadow-md md:hidden">
-        <nav class="flex flex-col items-center gap-4 py-6 text-sm">
-            <a href="#home" class="hover:text-primary">Home</a>
-            <a href="#sobre" class="hover:text-primary">Sobre</a>
-            <a href="#servicos" class="hover:text-primary">Serviços</a>
-            <a href="#projetos" class="hover:text-primary">Projetos</a>
-            <a href="#contato" class="hover:text-primary" rel="nofollow">Contato</a>
+    <div id="menu-mobile" class="hidden fixed top-[88px] left-0 w-full bg-blackTech text-white shadow-md md:hidden z-40">
+        <nav class="flex flex-col items-center gap-6 py-8 text-lg font-semibold">
+            <a href="#home" class="hover:text-primary transition">Home</a>
+            <a href="#sobre" class="hover:text-primary transition">Sobre</a>
+            <a href="#servicos" class="hover:text-primary transition">Serviços</a>
+            <a href="#projetos" class="hover:text-primary transition">Projetos</a>
+            <a href="#contato" class="hover:text-primary transition" rel="nofollow">Contato</a>
         </nav>
     </div>
 

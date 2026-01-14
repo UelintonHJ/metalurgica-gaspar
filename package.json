@@ -23,8 +23,8 @@
     "update-browserslist-db": "^1.2.3"
   },
   "scripts": {
-    "dev": "tailwindcss -i ./src/input.css -o ./assets/css/tailwind.css --content \"./index.html\" --watch",
-    "build": "tailwindcss -i ./src/input.css -o ./assets/css/tailwind.css --minify"
+    "dev": "tailwindcss -i ./src/input.css -o ./public/assets/css/tailwind.css --content \"./index.html\" --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./public/assets/css/tailwind.css --minify"
   },
   "keywords": [],
   "author": "",
