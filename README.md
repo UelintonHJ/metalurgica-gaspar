@@ -1,97 +1,100 @@
-# 🏭 [Metalúrgica Gaspar - Site Institucional]()
+🇺🇸 English | 🇧🇷 [Português](README.pt-BR.md)
 
-Site institucional desenvolvido para a **Metalúrgica Gaspar**, com foco em **credibilidade industrial**, **clareza de comunicação** e **geração de leads**.
+# 🏭 [Metalúrgica Gaspar – Institutional Website](https://metalurgica-gaspar.vercel.app/)
 
-O projeto foi pensado seguindo boas práticas de **UX/UI para indústrias**, com layout limpo, linguagem objetiva e responsividade mobile-first.
+Institutional website developed for **Metalúrgica Gaspar**, focused on **industrial credibility**, **clear communication**, and **lead generation**.
 
----
-## 🎯 Objetivo do Projeto
-
-Criar uma presença digital profissional para uma empresa do setor industrial, comunicando:
-
-* Autoridade técnica
-* Tradição e confiabilidade
-* Serviços de usinagem e ferramentaria
-* Facilidade de contato para orçamento
-
-Este projeto também faz parte do **portfólio de desenvolvimento fron-end**, demonstrando domínio em HTML semântico, Tailwind CSS e organização de projeto.
+The project was designed following **UX/UI best practices for industrial companies**, with a clean layout, objective language, and a mobile-first responsive approach.
 
 ---
+## 🎯 Project Goal
 
-## 🧠 Decisões de UX/UI
+To create a professional digital presence for a company in the industrial sector, communicating:
 
-* **Visual sóbrio e técnico** (indústria ≠ marketing chamativo)
-* **Paleta branca + preto + verde**, reforçando precisão e confiança
-* **Hierarquia clara de informação**
-* **CTA direto**, sem distrações
-* **Mobile-first**, com adaptação progressiva para telas maiores
+- Technical authority  
+- Tradition and reliability  
+- Machining and tooling services  
+- Easy contact for quotation requests  
+
+This project is also part of a **front-end development portfolio**, demonstrating proficiency in semantic HTML, Tailwind CSS, and project organization.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🧠 UX/UI Decisions
 
-* **HTML5 semântico**
-* **Tailwind CSS (build local, produção-ready)**
-* **CSS customizado para ajustes finos**
-* **JavaScript Vanilla (menu mobile)**
-* **Google Fonts - Inter**
-* **Git & GitHub**
-
----
-
-## 📱 Responsividade
-
-* Layout **mobile-first**
-* Grid adaptável para tablet e desktop
-* Menu mobile com toggle
-* Imagens responsivas sem distorção
-* Conteúdo centralizado em telas menores
+- **Sober and technical visual style** (industry ≠ flashy marketing)  
+- **White + black + green color palette**, reinforcing precision and trust  
+- **Clear information hierarchy**  
+- **Direct CTA**, without distractions  
+- **Mobile-first**, with progressive enhancement for larger screens  
 
 ---
 
-## 🚀 Como Rodar o Projeto Localmente
+## 🛠️ Technologies Used
 
-1. **Clonar o repositório**
+- **Semantic HTML5**  
+- **Tailwind CSS (local build, production-ready)**  
+- **Custom CSS for fine adjustments**  
+- **Vanilla JavaScript (mobile menu)**  
+- **Google Fonts – Inter**  
+- **Git & GitHub**
+
+---
+
+## 📱 Responsiveness
+
+- **Mobile-first layout**  
+- Adaptive grid for tablet and desktop  
+- Mobile menu with toggle  
+- Responsive images without distortion  
+- Centered content on smaller screens  
+
+---
+
+## 🚀 Running the Project Locally
+
+1. **Clone the repository**
 
 ```
 git clone https://github.com/UelintonHJ/metalurgica-gaspar.git
 ```
 
-2. **Acessar a pasta**
+2. **Navigate to the project folder**
 
 ```
 cd metalurgica-gaspar
 ```
 
-3. **Instalar dependências**
+3. **Install dependencies**
 
 ```
 npm install
 ```
 
-4. **Gerar o CSS do Tailwind**
+4. **Generate Tailwind CSS**
 
 ```
 npx tailwindcss -i ./src/input.css -o ./assets/css/tailwind.css --watch
 ```
 
-5. **Abrir o projeto**
+5. **Open the project**
 
-Abra o arquivo index.html no navegador
-ou utilize uma extensão como **Live Server**.
-
----
-
-## 👨‍💻 Autor
-
-Desenvolvido por **Uelinton Janke**
-<br>
-Front-end Developer em formação, com foco em interfaces claras, responsivas e orientadas a resultado.
+Open the `index.html` file in your browser  
+or use an extension such as **Live Server**.
 
 ---
 
-## 📄 Licença
+## 👨‍💻 Author
 
-Este projeto é de uso institucional.
+Developed by **Uelinton Janke**  
 <br>
-Layout e estrutura desenvolvidos para fins profissionais e de portfólio.
+Front-end Developer in training, focused on clear, responsive, and result-oriented interfaces.
+
+---
+
+## 📄 License
+
+This project is intended for institutional use.  
+<br>
+Layout and structure were developed for professional and portfolio purposes.
+
