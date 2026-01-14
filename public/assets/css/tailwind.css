@@ -455,6 +455,9 @@
   .px-7 {
     padding-inline: calc(var(--spacing) * 7);
   }
+  .px-8 {
+    padding-inline: calc(var(--spacing) * 8);
+  }
   .px-10 {
     padding-inline: calc(var(--spacing) * 10);
   }
